@@ -6,11 +6,9 @@ jQuery(document).ready(function(){
 		menuTitle = jQuery(navMenus[index]).children('h3').html().toUpperCase()
 		if (page==menuTitle) {
 			jQuery(navMenus[index]).css('display', "")
-			console.log("showing " + menuTitle)
 		}
 		else {
 			jQuery(navMenus[index]).css('display', "none")
-			console.log("hiding " + menuTitle)
 		}
 	});
 })
